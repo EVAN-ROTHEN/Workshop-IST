@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 440" font-family="Helvetica Neue, Arial, sans-serif">
+  <defs>
+    <marker id="a2" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#5f6368"/>
+    </marker>
+  </defs>
+  <style>
+    .t   { font-size: 19px; fill: #202124; text-anchor: middle; font-weight: 600; }
+    .s   { font-size: 14px; fill: #5f6368; text-anchor: middle; }
+    .ln  { stroke: #5f6368; stroke-width: 2.5; fill: none; marker-end: url(#a2); }
+  </style>
+
+  <!-- Row 1 -->
+  <rect x="30"  y="40" width="200" height="74" rx="10" fill="#E8F0FE" stroke="#4285F4"/>
+  <text x="130" y="70" class="t">Données clients</text>
+  <text x="130" y="94" class="s">CSV / BigQuery</text>
+
+  <rect x="300" y="40" width="220" height="74" rx="10" fill="#E8F0FE" stroke="#4285F4"/>
+  <text x="410" y="70" class="t">Vertex AI Dataset</text>
+  <text x="410" y="94" class="s">tabulaire</text>
+
+  <rect x="590" y="40" width="240" height="74" rx="10" fill="#E6F4EA" stroke="#34A853"/>
+  <text x="710" y="70" class="t">AutoML Tabular</text>
+  <text x="710" y="94" class="s">entraînement managé</text>
+
+  <line x1="230" y1="77" x2="298" y2="77" class="ln"/>
+  <line x1="520" y1="77" x2="588" y2="77" class="ln"/>
+
+  <!-- down from AutoML to row 2 -->
+  <path d="M710,114 L710,165 L410,165 L410,205" class="ln"/>
+
+  <!-- Row 2 -->
+  <rect x="300" y="210" width="220" height="74" rx="10" fill="#FEF7E0" stroke="#FBBC04"/>
+  <text x="410" y="240" class="t">Model Registry</text>
+  <text x="410" y="264" class="s">modèle versionné</text>
+
+  <rect x="590" y="200" width="300" height="94" rx="10" fill="#FCE8E6" stroke="#EA4335"/>
+  <text x="740" y="228" class="t">Prédiction</text>
+  <text x="740" y="252" class="s">• Batch (mensuel) — économique</text>
+  <text x="740" y="274" class="s">• Endpoint REST (temps réel)</text>
+
+  <line x1="520" y1="247" x2="588" y2="247" class="ln"/>
+
+  <!-- down to business action -->
+  <path d="M740,294 L740,345 L560,345 L560,375" class="ln"/>
+  <rect x="300" y="380" width="520" height="46" rx="10" fill="#F1F3F4" stroke="#5f6368"/>
+  <text x="560" y="408" class="t">Liste clients à risque → CRM / équipe rétention</text>
+</svg>
