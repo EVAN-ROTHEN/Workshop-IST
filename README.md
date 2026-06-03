@@ -32,7 +32,3 @@ make cheatsheet   # cheat sheet uniquement
 
 ## Préparer la démo
 Voir `demo/README.md` (timing, coûts, plan de secours, script de démo).
-
-## Répartition du travail (binôme)
-- *Rothen Evan* : théorie + coûts + cheat sheet
-- *Essinger Benoît* : démo + architecture + alternatives
